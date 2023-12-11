@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+html body .navigation-bar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+html body .navigation-bar-container .navigation-bar {
+  background-color: #d0e6c0;
+  width: 1200px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html body .navigation-bar-container .navigation-bar .navigation-bar-logo {
+  height: 38px;
+  margin-left: 1em;
+  padding: 0.2em 0;
+}
+html body .navigation-bar-container .navigation-bar .navigation-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+html body .navigation-bar-container .navigation-bar .navigation-links-container a {
+  text-decoration: none;
+}
+html body .navigation-bar-container .navigation-bar .navigation-links-container a .navigation-links {
+  margin-right: 2em;
+  font-family: sans-serif;
+  color: black;
+}
+html body .homepage-container {
+  width: 1200px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+html body .homepage-container .banner-section {
+  width: 100%;
+  padding: 6em 0 4em 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7fdf3;
+}
+html body .homepage-container .banner-section .banner-logo-food-image {
+  height: 500px;
+  border: 2px solid #d0e6c0;
+}
+html body .homepage-container .food-banner-container {
+  width: 100%;
+}
+html body .homepage-container .menu-summary-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f7fdf3;
+  width: 100%;
+}
+html body .homepage-container .menu-summary-section .menu-summary-title {
+  font-family: sans-serif;
+  padding: 2em 0;
+  font-size: 1.3em;
+}
+html body .homepage-container .menu-summary-section .menu-summary-container {
+  background-color: white;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5em 2em;
+  padding: 1em 0;
+  border: 1px solid #d0e6c0;
+}
+html body .homepage-container .menu-summary-section .menu-summary-container .menu-summary-options {
+  font-family: sans-serif;
+  font-style: italic;
+}
+html body .homepage-container .menu-summary-section .menu-summary-button-container {
+  padding: 4em 0 2em 0;
+  width: 20%;
+}
+html body .homepage-container .menu-summary-section .menu-summary-button-container .menu-summary-button {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  padding: 0.2em;
+  width: 100%;
+  border: 1px solid black;
+  background-color: #d0e6c0;
+  color: #cc0000;
+}
+html body .homepage-container .store-information-container {
+  background-color: #f7fdf3;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1em;
+}
+html body .homepage-container .store-information-container .store-information-title {
+  padding: 1em 0.1em;
+  font-family: sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+}
+html body .homepage-container .store-information-container .store-information {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 1.5em 0;
+}
+html body .homepage-container .store-information-container .store-hours-container, html body .homepage-container .store-information-container table {
+  background-color: white;
+  border: 2px solid #cbcfc9;
+  padding: 1em;
+}
+html body .homepage-container .store-information-container .store-hours-container thead, html body .homepage-container .store-information-container table thead {
+  font-family: sans-serif;
+}
+html body .homepage-container .store-information-container .store-hours-container thead th, html body .homepage-container .store-information-container table thead th {
+  padding: 0em 0 1em 0;
+  font-size: 1.4em;
+}
+html body .homepage-container .store-information-container .store-hours-container tbody td:first-of-type, html body .homepage-container .store-information-container table tbody td:first-of-type {
+  padding: 0.2em 1em;
+  font-family: sans-serif;
+}
+html body .homepage-container .store-information-container .store-hours-container tbody td:last-of-type, html body .homepage-container .store-information-container table tbody td:last-of-type {
+  padding: 0.2em 1em;
+  text-align: center;
+  font-family: sans-serif;
+}
+html body .homepage-container .store-information-container .store-services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+html body .homepage-container .store-information-container .store-services-container .service-image-container {
+  height: 230px;
+  width: 300px;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+}
+html body .homepage-container .store-information-container .store-services-container .service-image-container img {
+  height: 400px;
+  width: 300px;
+  top: -60px;
+  position: absolute;
+}
+html body .homepage-container .store-information-container .store-services-container .services-title {
+  padding: 0.5em 0.3em 0.3em 0.3em;
+  font-family: sans-serif;
+}
+html body .homepage-container .store-information-container .store-services-container .services-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body .homepage-container .store-information-container .store-services-container .services-list .services {
+  margin: 0 3em;
+  font-family: sans-serif;
+  font-size: 1.3em;
+}
+html body .homepage-container .store-location-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 4em 0;
+  background-color: #f7fdf3;
+}
+html body .homepage-container .store-location-container .location-and-number-container {
+  font-family: sans-serif;
+  margin-left: 2em;
+}
+html body .homepage-container .store-location-container .location-and-number-container .location-container {
+  margin: 2em 0;
+}
+html body .homepage-container .store-location-container .location-and-number-container .location-container .location-name {
+  font-size: 1.9em;
+  padding: 0.2em 0;
+  font-weight: bold;
+}
+html body .homepage-container .store-location-container .location-and-number-container .location-container .location-name .address {
+  padding: 0.1em 0;
+}
+html body .homepage-container .store-location-container .location-and-number-container .phone-container {
+  margin: 2em 0;
+}
+html body .homepage-container .store-location-container .location-and-number-container .phone-container .phone-text {
+  font-size: 1.9em;
+  padding: 0.2em 0;
+  font-weight: bold;
+}
+html body .homepage-container .store-location-container .location-and-number-container .phone-container .phone-text .phone-number {
+  padding: 0.1em 0;
+}
+html body .homepage-container .store-location-container .location-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body .homepage-container .store-location-container .location-image-container img {
+  width: 80%;
+}
+html body .footer-container {
+  width: 100%;
+  background-color: #d0e6c0;
+  padding: 0.5em 0;
+}
+html body .footer-container .chans-kitchen-copyright-text {
+  font-family: sans-serif;
+  padding: 0.5em;
+}
+html body .footer-container img {
+  height: 20px;
+  margin-left: 0.5em;
+}/*# sourceMappingURL=styles.css.map */
